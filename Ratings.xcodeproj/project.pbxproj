@@ -12,6 +12,10 @@
 		FD7620DC1CD0146C00907E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7620DA1CD0146C00907E60 /* Main.storyboard */; };
 		FD7620DE1CD0146C00907E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7620DD1CD0146C00907E60 /* Assets.xcassets */; };
 		FD7620E11CD0146C00907E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7620DF1CD0146C00907E60 /* LaunchScreen.storyboard */; };
+		FDD281721CD2F49C00D9772E /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD281711CD2F49C00D9772E /* PlayersViewController.swift */; };
+		FDD281741CD2F61100D9772E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD281731CD2F61100D9772E /* Player.swift */; };
+		FDD281761CD2F65F00D9772E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD281751CD2F65F00D9772E /* SampleData.swift */; };
+		FDD281781CD345ED00D9772E /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD281771CD345ED00D9772E /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FD7620DD1CD0146C00907E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD7620E01CD0146C00907E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD7620E21CD0146C00907E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD281711CD2F49C00D9772E /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		FDD281731CD2F61100D9772E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FDD281751CD2F65F00D9772E /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		FDD281771CD345ED00D9772E /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				FD7620D61CD0146C00907E60 /* AppDelegate.swift */,
 				FD7620D81CD0146C00907E60 /* ViewController.swift */,
 				FD7620DA1CD0146C00907E60 /* Main.storyboard */,
+				FDD281771CD345ED00D9772E /* PlayerCell.swift */,
+				FDD281731CD2F61100D9772E /* Player.swift */,
+				FDD281751CD2F65F00D9772E /* SampleData.swift */,
+				FDD281711CD2F49C00D9772E /* PlayersViewController.swift */,
 				FD7620DD1CD0146C00907E60 /* Assets.xcassets */,
 				FD7620DF1CD0146C00907E60 /* LaunchScreen.storyboard */,
 				FD7620E21CD0146C00907E60 /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD281781CD345ED00D9772E /* PlayerCell.swift in Sources */,
+				FDD281741CD2F61100D9772E /* Player.swift in Sources */,
 				FD7620D91CD0146C00907E60 /* ViewController.swift in Sources */,
 				FD7620D71CD0146C00907E60 /* AppDelegate.swift in Sources */,
+				FDD281761CD2F65F00D9772E /* SampleData.swift in Sources */,
+				FDD281721CD2F49C00D9772E /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				FD7620E71CD0146C00907E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
